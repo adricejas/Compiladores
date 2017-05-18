@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Compilador.exe"/>
+    <OBJFILES value="Compilador.obj Main.obj Errores.obj Tokens.obj TablaSimbolos.obj 
+      Lexico.obj AcercaDe.obj Sentencias.obj GRAMAT.obj arbolABB.obj"/>
+    <RESFILES value="Compilador.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm Errores.dfm Tokens.dfm TablaSimbolos.dfm AcercaDe.dfm 
+      Sentencias.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi cds.bpi dsnap.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Compilador.cpp"/>
+    <INCLUDEPATH value="&quot;..\..\..\..\..\2013\Trabajo Práctico 2010\1ra Entrega\1era Entrega FINAL Compiladores 2010\Código fuente&quot;;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;Librerias;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects\pablo001&quot;;C:\Llevar\Nuestro;..\pablo002;pablo001;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;..\..\..\..\..\2013\Trabajo Práctico 2010\1ra Entrega\1era Entrega FINAL Compiladores 2010\Código fuente&quot;;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot;;Librerias;&quot;C:\Archivos de programa\Borland\CBuilder6\Projects\pablo001&quot;;C:\Llevar\Nuestro;..\pablo002;pablo001;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;..\..\..\..\..\2013\Trabajo Práctico 2010\1ra Entrega\1era Entrega FINAL Compiladores 2010\Código fuente&quot; 
+      -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects&quot; -ILibrerias 
+      -I&quot;C:\Archivos de programa\Borland\CBuilder6\Projects\pablo001&quot; 
+      -IC:\Llevar\Nuestro -I..\pablo002 -Ipablo001 -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Compilador.res" FORMNAME="" UNITNAME="Compilador.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Compilador.cpp" FORMNAME="" UNITNAME="Compilador" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="FormPrincipal" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Errores.cpp" FORMNAME="FormErrores" UNITNAME="Errores" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tokens.cpp" FORMNAME="FormTokens" UNITNAME="Tokens" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TablaSimbolos.cpp" FORMNAME="FormTablaSimbolos" UNITNAME="TablaSimbolos" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Lexico.cpp" FORMNAME="" UNITNAME="Lexico" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AcercaDe.cpp" FORMNAME="FormAcercaDe" UNITNAME="AcercaDe" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sentencias.cpp" FORMNAME="FormSentencias" UNITNAME="Sentencias" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GRAMAT.cpp" FORMNAME="" UNITNAME="GRAMAT" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="arbolABB.cpp" FORMNAME="" UNITNAME="arbolABB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=11274
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;;
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
